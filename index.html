@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>lesson_10.1</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="header__container">
+                    <div class="logotype">
+                        <picture> <!--? вот честно не знаю нужно ли задавать class у picture или только у img-->
+                            <source srcset="#">
+                            <img src="#" alt="#" class="logotype__image">
+                        </picture>
+                    </div>
+                    <div class="header__menu">
+                        <!-- скорее всего через ul с display inline ну или коробки делать-->
+                        <ul class="main-menu">
+                            <li class="main-menu__list"><a href="#"
+                                    class="link">Home</a></li>
+                            <li class="main-menu__list"><a href="#"
+                                    class="link">About</a></li>
+                            <li class="main-menu__list"><a href="#"
+                                    class="link">Services</a></li>
+                            <li class="main-menu__list"><a href="#"
+                                    class="link">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="button">
+                        <a href="#" class="button__main">contact us</a><!--далее в стиле uppercase-->
+                    </div>
+                </div>
+            </header>
+            <main class="main">
+                <div class="container-header">
+                    <div class="logotype">
+                        <picture>
+                            <source srcset="#">
+                            <img src="#" alt="#" class="logotype__image">
+                        </picture>
+                    </div>
+                    <img src="#" alt="#" class="main__picture">
+                    <img src="#" alt="#" class="main__background-white">
+                    <h1 class="container-header__tittle">HELPING YOU THRIVE IN
+                        ALL AREAS OF LIFE</h1>
+                    <div class="container-header__text">
+                        <p class="container-header__item">Our highly talented
+                            therapists can help you with a range of issues
+                            including relationships, sex, PTSD, depression,
+                            social anxiety, or even just caring for yourself
+                            more.</p>
+                        <div class="container-header__button button-yellow">
+                            <a href="#" class="button-yellow__link">WHO AM I</a>
+                            <a href="#" class="button-yellow__link
+                                button-yellow_opacity">WHAT DO I DO</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="why-thrive">
+                    <div class="why-thrive__container">
+                        <h2 class="tittle">Why Thrive?</h2>
+                        <div class="why-thrive__text">
+                            <p class="why-thrive__item"><b>Want to improve your
+                                    well-being from the comfort of your own
+                                    couch?
+                                    Are you having trouble finding the right
+                                    therapist?</b> Here at ThriveTalk, our
+                                licensed
+                                therapists provide the same quality care you
+                                would get in office from anywhere you can access
+                                your laptop or mobile phone. Become your best
+                                self with ThriveTalk. Start therapy now with a
+                                licensed therapist!</p>
+                        </div>
+                        <div class="why-thrive__picture">
+                            <picture> <!-- видно что фото высокого кач-ва и может поменяться со временем -->
+                                <source srcset="#">
+                                <img src="#" alt="#" class="why-thrive__image">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-us">
+                    <div class="about-us__container">
+                        <div class="item"> <!--? Я не знаю что это кнопка? ссылка? просто текст? максимум догадываюсь что position:static или absolute-->
+                            <p class="item__text">about us</p>
+                        </div>
+                        <p class="about-us__text">
+                            We want to help you thrive! Whether you are just
+                            looking for someone to talk to, or are struggling
+                            with a mental wellness issue we’re here to help. Our
+                            highly talented therapists can help you with a range
+                            of issues including relationships, sex, PTSD,
+                            depression, social anxiety, or even just caring for
+                            yourself more.</p>
+                        <p class="about-us__sub-text">we can help ypu with</p><!--стиль uppercase-->
+                        <div class="box">
+                            <div class="box__weight-lifting">
+                                <a href="#" class="box__link"></a>
+                            </div>
+                            <div class="box__running-spinning">
+                                <a href="#" class="box__link"></a>
+                            </div>
+                            <div class="box__pumping-iron">
+                                <a href="#" class="box__link"></a>
+                            </div>
+                            <div class="box__pumping-iron iron-pumping">
+                                <a href="#" class="iron-pumping__link"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box__big">
+                        <a href="#" class="box__link box__link_dark-blue">Physical
+                            Health</a>
+                        <!--?вроде не ошибка так как я создаю новый БЭМ-блок -->
+                    </div>
+                    <div class="box__big">
+                        <a href="#" class="box__link box__link_blue">Mental
+                            Health</a>
+                    </div>
+                    <div class="box__big">
+                        <a href="#" class="box__link blix__link_image">Nutrition</a>
+                        <!--
+                        <picture>
+                            <source srcset="#" media="#">
+                            <img src="#" alt="404" class="box__smuzi"> ну или это в background с ссылки добавить
+                        </picture> -->
+                        <!--? может и можно попробовать таким способом, но..... я не знаю пока-->
+                    </div>
+                    <div class="box__big">
+                        <a href="#" class="box__link box__link_color-62D0DF">Gymnatics</a>
+                    </div>
+                    <div class="box__big">
+                        <a href="#" class="box__link box__link_pink">Crossfit</a>
+                    </div>
+                    <div class="box__big">
+                        <a href="#" class="box__link box__link_purple">Aerobics</a>
+                    </div>
+                </div>
+                <div class="boxes-with-text">
+                    <div class="content">
+                        <div class="content__text">
+                            <h3 class="content__tittle">Nutritional Plans</h3>
+                            <p class="content__about">Nutritional Facts on some
+                                shitty things that you don’t care about and even
+                                we don’t , I need to replace this copy.</p>
+                        </div>
+                        <div class="content__text">
+                            <h3 class="content__tittle">Weight Loss</h3>
+                            <p class="content__about">Nutritional Facts on some
+                                shitty things that you don’t care about and even
+                                we don’t , I need to replace this copy.</p>
+                        </div>
+                        <div class="content__text">
+                            <h3 class="content__tittle">Mental Peace</h3>
+                            <p class="content__about">Nutritional Facts on some
+                                shitty things that you don’t care about and even
+                                we don’t , I need to replace this copy.</p>
+                        </div>
+                        <div class="content__text">
+                            <h3 class="content__tittle">Home Training</h3>
+                            <p class="content__about">Nutritional Facts on some
+                                shitty things that you don’t care about and even
+                                we don’t , I need to replace this copy.</p>
+                        </div>
+                        <div class="content__text">
+                            <h3 class="content__tittle">Work/Life Balance</h3>
+                            <p class="content__about">Nutritional Facts on some
+                                shitty things that you don’t care about and even
+                                we don’t , I need to replace this copy.</p>
+                        </div>
+                        <div class="content__text">
+                            <h3 class="content__tittle">Cardio</h3>
+                            <p class="content__about">Nutritional Facts on some
+                                shitty things that you don’t care about and even
+                                we don’t , I need to replace this copy.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="statistic">
+                    <picture>
+                        <source srcset="#">
+                        <img src="#" alt="#" class="statistic__left-image">
+                        <!--TODO кажется знаю {max-height:800px position:absoulute bottom: 1180px.......  ну или чему-то задавать relative и уже отталкиваться от него -->
+                    </picture>
+                    <div class="item">
+                        <p class="item__text">YOU SHOULD ALSO KNOW</p>
+                    </div>
+                    <div class="statistic__text">
+                        <p class="statistic__text text__statistic">MDD affects
+                            more than 16.1 million American adults, or about
+                            6.7%of the U.S. population age 18 and older in a
+                            given year. We at<span>ThriveTalk</span>can help
+                            you.</p>
+                    </div>
+                    <a href="#" class="statistic__link">GET HELP NOW</a>
+                </div>
+                <div class="contact-us">
+                    <div class="item">
+                        <p class="item__text item__text_white">CONTACT US</p>
+                    </div>
+                    <h2 class="contact-us__tittle">Ready.Set.Smile</h2>
+                    <p class="contact-us__text">Take the free online assessment
+                        to see if you are a candidate and get started on your
+                        journey.</p>
+                    <a href="#" class="contact-us__link">GET HELP NOW</a>
+                    <div class="right-picture">
+                        <picture>
+                            <source srcset="#">
+                            <img src="#" alt="#" class="right-picture__image">
+                        </picture>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="footer__content">
+                    <picture>
+                        <source srcset="#" class="footer__picture">
+                        <img src="#" alt="#" class="footer__image">
+                    </picture>
+                    <div class="information">
+                        <ul class="information__list">
+                            <li class="information__lorem">Lorem, ipsum dolor
+                                sit amet consectetur adipisicing elit. Pariatur
+                                officiis itaque earum dolorem animi laboriosam
+                                dolorum ipsa veritatis minima provident harum
+                                nemo totam unde molestiae iste cumque,
+                                accusantium voluptatibus rem?</li>
+                        </ul>
+                    </div>
+                    <div class="adress"><!--Считаю, что тут можно было бы и список сделать, но что то подсказывает что нет.-->
+                        <p class="adress__street">Main Street 1, Olcott Buffalo,
+                            United States</p>
+                        <p class="adress__telephone">+555283784333</p>
+                        <a href="mailto:office@engold-health.com">office@engold-health.com</a>
+                    </div>
+                    <div class="schedule">
+                        <ul class="schedule__time">
+                            <li class="schedule__list">Mo-Fr: 8:00-19:00</li>
+                            <li class="schedule__list">Sa: 8:00-14:00</li>
+                            <li class="schedule__list">Su: closed</li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
